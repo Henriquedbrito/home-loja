@@ -1,0 +1,115 @@
+:root{
+    --bg-color: rgb(30, 26, 41);
+    --texto-hover: rgb(117, 169, 228);
+    --titilo-color: rgb(255, 255, 255);
+    --dgcabeca-color: rgba(3, 3, 5, 0.877);
+    --cor-blocos: #b6bbcf;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+header{
+    background-color: var(--dgcabeca-color);
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+header h1{
+    text-align: center;
+    color: var(--titilo-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    max-width: 4em;
+    display:block;
+    
+}
+
+nav{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--titilo-color);
+    padding: 10px 15px;
+}
+
+nav ul li a:hover{
+    background-color: var(--texto-hover);
+    border-radius: 10px;
+}
+
+.promo{
+    text-align: center
+}
+
+.material{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--dgcabeca-color);
+}
+
+.material h2{
+    background-color: var(--cor-blocos);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-indent: 40px;
+    font-size: 1.5em;
+}
+
+.material p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--titilo-color);
+    font-size: 1.5em;
+}
+
+.cards{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* quebra linha */
+}
+
+.cards .card{
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    min-height: 150px;
+    background-color: var(--cor-blocos);
+    margin: 10px;
+}
+
+.produtos{
+    width: 100%;
+    display: block;
+}
+
+.preço {
+    font-size: 2em;
+}
+
+footer{
+    padding: 15px;
+    background-color: var(--dgcabeca-color);
+}
+
+footer p{
+    text-align: center;
+    color: var(--titilo-color);
+}
